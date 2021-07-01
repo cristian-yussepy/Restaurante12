@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburguesa</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="http://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&
+    display=swp" rel="stylesheet">
+    <link href='http://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img src="img/logo.png" alt="">Kangreburguers</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart (2).png" alt="">
+                            <div id="carrito">
+                                <p class="vacio">Bienvenidos</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Presentacion</th>
+                                            <th><b>Tipos de Hamburguesa</b></th>
+                                            <th>Valor<br</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo1.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa Con Helado</td>
+                                            <td>$15.000</td>
+                                            <td><a href="#" class="borrar-platillo" >1</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo3.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa Sencilla</td>
+                                            <td>$10.000</td>
+                                            <td><a href="#" class="borrar-platillo" >2</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">Ordenar Opcion</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Prueba Nuestras Hamburguesas</h2>
+                        <p>Todas las Hamburguesas a $10.000</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>10 Hamburguesas Diferentes<br>
+                    Explora Los Nuevos Sabores</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Cheff Expertos<br>
+                    Prueba los Nuevos Ingredientes</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Bebidas Azucaradas<br>
+                    Prueba tu bebida favorita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="lista-platillos" class="container">
+        <h1 class="encabezado">Pedidos en Linea</h1>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Sencilla</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$10.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Papas</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Helado</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$17.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Sencilla</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$10.000 <span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo5.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Papas</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Helado</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Sencilla</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Papas</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$10.000 <span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Helado</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo5.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Sencilla</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$10.000 <span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Papas</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$10.000<span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa Con Helado</h4>
+                        <p>Bebida Azucarada</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right"></span> </p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                 <h2 class="brand">Hamburguesa No vuelva, 10 Años a su servicio</h2>
+                 <p>Somos expertos en saber tus gustos</p>
+            </div>
+            <div class="social-media">
+                <a href="https://es-la.facebook.com/" target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="social-media-icon">
+                     <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://www.instagram.com/?hl=es-la" target="_blank" class="social-media-icon">
+                     <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+         <div class="line"></div>
+     </footer>
+
+    
+</body>
+</html>
